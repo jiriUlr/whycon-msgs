@@ -1,0 +1,26 @@
+<package format="2">
+
+  <name>whycon_msgs</name>
+  <version>0.7.5</version>
+  <description>WhyCon messages</description>
+
+  <maintainer email="jiri.ulrich@fel.cvut.cz">Jiri Ulrich</maintainer>
+
+  <license>MIT</license>
+
+  <url type="website">https://github.com/jiriUlr/whycon-msgs</url>
+
+  <author email="jiri.ulrich@fel.cvut.cz">Jiri Ulrich</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>message_generation</build_depend>
+  <build_export_depend>message_runtime</build_export_depend>
+  <exec_depend>message_runtime</exec_depend>
+
+  <depend>std_msgs</depend>
+  <depend>geometry_msgs</depend>
+
+  <export>
+  </export>
+</package>
